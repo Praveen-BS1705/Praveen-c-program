@@ -1,10 +1,19 @@
 #include<stdio.h>
 int main()
 {
-int arr[5]= {1,2,3,4,5};
-for(int i=0;i<5;i++)
+int array[10],i;
+array[0]=1;
+array[1]=2;
+array[2]=3;
+for (i=3;i<10;i++)
 {
-printf("%d\n",arr[i]);
+printf("enter the value of array[%d]: ",i);
+scanf("%d",&array[i]);
+C-SKILL
+}
+for (i=0;i<10;i++)
+{
+printf("array[%d]=%d\n",i,array[i]);
 }
 return 0;
 }
